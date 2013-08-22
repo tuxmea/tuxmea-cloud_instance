@@ -8,6 +8,8 @@ require 'uri'
 Puppet::Parser::Functions.newfunction(:cloud_avg_load, :type => :rvalue) do |args|
     load = Array.new()
     # set some basic configuration parameters
+    # we need to find puppetdb.conf wich is located differently on PE and Open Source.
+    # we need to find where the certificates are (can be individual configuration)
     puppet_confdir = File.read Puppet.settings[:confdir]
     puppet_ssldir = File.read Puppet.settings[:ssldir]
     puppet_certname = File.read Puppet.settings[:certname]
@@ -47,5 +49,4 @@ Puppet::Parser::Functions.newfunction(:cloud_avg_load, :type => :rvalue) do |arg
         puts sum / num
     end
 end
-
 
