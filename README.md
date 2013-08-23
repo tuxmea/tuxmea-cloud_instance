@@ -32,7 +32,7 @@ First version:
 
 Usage
 -----
-
+``Puppet
 class { 'cloud_instance::node':
   type => 'aws',                # <- which cloud type will be used
   server_type    => 'webserver',   # <- needs to be a template on your ONE instance
@@ -42,7 +42,7 @@ class { 'cloud_instance::node':
   low_constraint => 10,            # <- constraint value (beyond which value should we create Vms
   up_constraint  => 4,             # <- constraint value (lower number upon which we delete VMs
 }
-
+```
 Copyright
 ---------
 
