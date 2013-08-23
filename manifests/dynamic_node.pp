@@ -21,4 +21,5 @@ define cloud_instance::dynamic_node (
     $low_constraint = 1,
     $up_constraint = 4,
 ){
+
 }

@@ -1,8 +1,6 @@
-   Puppet - Automating Configuration Management.
 
-   Copyright (C) 2005-2012 Puppet Labs Inc
+   Copyright (C) 2013 Martin Alfke <martin.alfke@buero20.org>
 
-   Puppet Labs can be contacted at: info@puppetlabs.com
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
