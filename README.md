@@ -32,7 +32,7 @@ First version:
 
 Usage
 -----
-``Puppet
+```Puppet
 class { 'cloud_instance::node':
   type => 'aws',                # <- which cloud type will be used
   server_type    => 'webserver',   # <- needs to be a template on your ONE instance
